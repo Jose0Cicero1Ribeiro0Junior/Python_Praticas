@@ -1,5 +1,9 @@
-numeros = (1, 2, 3, 4, 5)
+def converteMaiuscula(texto):
+    texto_convertido = texto.upper()
+    return texto_convertido
 
-altura = 1.88
+frase = 'Estou aprendendo funções na linguagem Python'
 
-habilitado = True
+frase_convertida = converteMaiuscula(frase)
+
+print(frase_convertida)
